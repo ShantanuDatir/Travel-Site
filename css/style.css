@@ -1,0 +1,180 @@
+body {
+  background-color: #f6f6f6;
+}
+
+h2 {
+  font-family: "Niconne", cursive;
+  font-size: 3rem;
+}
+h6{
+  text-align: center;
+}
+/* navbar */
+
+.logoimage {
+  margin: 0% 1%;
+  border-radius: 20%;
+  font-size: medium;
+  filter: grayscale(50%);
+}
+.navbar {
+  padding: 0px 10px;
+  position: absolute;
+}
+
+.navbar-brand {
+  font-family: "Bungee Inline", cursive;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Bungee Inline", cursive;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.banner-image {
+  padding: 22% 10% 40%;
+  margin-bottom: 3%;
+  height: 30rem !important;
+  width: 100%;
+  text-align: center;
+  background-image: url("/images/mainimage/titleimage.jpg");
+  background-size: cover;
+}
+.bannertext {
+  font-family: "Cinzel", serif;
+  font-size: 2.5rem;
+}
+
+#testimonial {
+  text-align: center;
+  background-color: #184d47;
+  padding: 5%;
+  color: white;
+  font-weight: 400;
+  margin: 7% 0;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  margin: 20px;
+  clip-path: circle();
+}
+
+.carousel-inner {
+  height: 20rem !important;
+}
+
+.title-text {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: black;
+  /* top: 30%;
+  left: 40%; */
+  font-family: "Niconne", cursive;
+  font-size: 100px;
+}
+
+/* Gallery section */
+.gal-text {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Bungee Inline", cursive;
+}
+
+#gallery {
+  padding: 7%;
+  margin-top: 3% 10%;
+}
+
+.imgtext {
+  position: absolute;
+  z-index: 1;
+  left: 20%;
+  top: 20%;
+  align-content: center;
+}
+
+.galleryimage {
+  left: 50;
+  align-content: center;
+  margin: 7% 10%;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 900;
+  align-content: center;
+  color: transparent;
+  margin: 5% 3%;
+  padding: 40% 40%;
+  width: 40%;
+  clip-path: circle();
+  background-position: center;
+  background-size: contain;
+}
+.galleryimage:hover {
+  opacity: 0.6;
+  color: black;
+}
+
+.img-info{
+  padding: 0 5%; 
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* Package */
+
+#packages {
+  padding: 0 5%;
+  text-align: center;
+}
+
+.btn {
+  background-color: #184d47;
+}
+
+#contact {
+  margin: 10% 0 0%;
+  padding: 3% 5%;
+  background-color: #184d47;
+  max-height: 41rem !important;
+  text-align: center;
+  color: white;
+}
+
+.profileimg {
+  clip-path: circle();
+  width: 20%;
+  margin: 4.5%;
+}
+
+.icon {
+  position: relative;
+  z-index: 1;
+  margin: 1rem;
+  bottom: 20px;
+  size: 2rem;
+  color: white;
+}
+
+.icon:hover {
+  color: blue;
+}
+
+.creater {
+  margin: 0 0px;
+}

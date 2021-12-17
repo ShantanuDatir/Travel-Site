@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Travel</title>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- bootstrap -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <!-- Font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+  <!-- title section -->
+  <section class="title" id="startpage">
+    <!-- title page -->
+
+    <!-- navbar -->
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <img class="logoimage" src="/images/mainimage/logoweb.jpeg" width="60" height="60" alt="">
+        <a class="navbar-brand" href="#">Wanderlust</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="banner-image align-items-center">
+      <h1 class="bannertext">Welcome to our tourism</h1>
+
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery-section" id="gallery">
+    <div class="gal-text">
+      <h2>Gallery</h3>
+    </div>
+   <br>
+   <br>
+    <!-- images -->
+    <div class="row">
+      <div class="col-lg-3 col-md-6 imagebox">
+        <!-- <div class="places-name">KEDARNATH</div> -->
+        <div class="galleryimage" style="background-image: url(/images/galleryimage/ked.jpg)">
+          <div class="imgtext">KEDARNATH</div>
+
+
+
+        </div>
+        <div class="img-info">
+          "Kedarnath is a tremendous space.
+          The utterance of the sound "Shiva" attains a
+          completely new dimension and significance in
+          Kedar. It is a space which has been specially
+          prepared for this particular sound."
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 imagebox">
+        <div class="galleryimage" style="background-image: url(/images/galleryimage/img.jpg)">
+          <div class="imgtext">GOA</div>
+
+        </div>
+        <div class="img-info">
+          "Goa is just like that fever, which gets within
+          you at least for a year and yoware left-with
+          an indefinable emotion. Every time you
+          visit this place, it will fill you with energy"
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 imagebox">
+        <div class="galleryimage" style="background-image: url(/images/galleryimage/rose.jpg)">
+          <div class="imgtext">OOTY</div>
+
+        </div>
+        <div class="img-info">
+          "Ooty can be your trip through dream-like indulges of chocolate and all thats sweet. Ooty is the queen of
+          hill stationsIf you love mountains rivers hill stations tea gardens toy train journey"
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 imagebox">
+        <div class="galleryimage" style="background-image: url(/images/galleryimage/LADAKH.jpg)">
+          <div class="imgtext">LADAKH</div>
+
+        </div>
+        <div class="img-info">
+          "When the wind calls, you know, that somewhere in the mountains, it has found the answers that you were
+          looking for. The pull of the horizon overcomes the inertia of reason…And you just have to go"
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="testimonial" id="testimonial">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false"  data-interval="1000">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">
+            I am overwhelmed with the service and planning of the tourism.
+          </h2>
+          <img class="testimonial-image" src="/images/personimage/images (1).jpg" alt="dog-profile" />
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <em> Bangalore</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            Awesome ,the staff is much supportive and we enjoyed our holidays
+            at its best.
+          </h2>
+          <img class="testimonial-image" src="/images/personimage/images.jpg" alt="dog-profile" />
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+
+          <em> Hyderabad</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            The package is so economic and affordable that everyone can go on
+            the holidays with their family.
+          </h2>
+          <img class="testimonial-image" src="/images/personimage/images.png" alt="dog-profile" />
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <em> " Delhi"</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+  <section class="package-section" id="packages">
+    
+      <h2>Our Packages</h2>
+    
+    <br />
+    <br />
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">15000 / Person</h2>
+            <p>Trasport : Bus</p>
+            <p>Tour: 5 days</p>
+            <p>Hotel:10%OFF</p>
+            <a href="/pages/formpage.html"></a><button class="btn btn-lg btn-block btn-dark" type="button">
+              Sign Up
+            </button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Premium</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">25000 / Person</h2>
+            <p>Transport : Train</p>
+            <p>Tour: 8 days</p>
+            <p>Hotel:30%OFF</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Gold</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">35000 / Person</h2>
+            <p>Trasport : Aeroplane</p>
+            <p>Tour: 10days</p>
+            <p>Hotel:50%OFF</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <br>
+    <br>
+    <h6>Click  <a href="/pages/formpage.html">here</a> for any enquiries</h6>
+  </section>
+  <section class="Contactus" id="contact">
+    
+    
+    <div class="Icon-container">
+      <a href="https://www.instagram.com/"><i class="icon fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.twitter.com"><i class="icon fab fa-twitter fa-2x"></i></a>
+      <a href="https://www.facebook.com"><i class="icon fab fa-facebook fa-2x"></i></a>
+      <p class="copyright">© Copyright 2021 Wanderlust</p>
+    </div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+/* FORM */
+.container-fluid {
+  margin: 0% 10%;
+}
+body {
+  margin: 10%;
+  text-align: center;
+  align-items: center;
+}
+
+.card {
+  left: 40%;
+  text-align: left !important;
+  position: absolute;
+  padding: 10%;
+  color: black;
+  max-width: 67rem;
+}
